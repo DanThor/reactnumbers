@@ -8,7 +8,7 @@ const Index = () => {
     const [searchText, setSearchText] = React.useState("");
   
     React.useEffect(() => {
-      const rootUrl = "http://numbersapi.com/";
+      const rootUrl = "https://random-number-fact.netlify.app/";
   
       if (!searchText) {
         return;
