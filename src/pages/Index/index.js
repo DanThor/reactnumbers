@@ -8,7 +8,7 @@ const Index = () => {
     const [searchText, setSearchText] = React.useState("");
   
     React.useEffect(() => {
-      const rootUrl = "https://random-number-fact.netlify.app/api/"; // New fetch root
+      const rootUrl = "https://random-number-fact.netlify.app/api/"; // New fetch root where I redirect to the API cause of the HTTP-api...
     
       if (!searchText) {
         return;
