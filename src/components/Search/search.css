@@ -1,0 +1,14 @@
+.inputSearch {
+  display: flex;
+  align-items: center;
+  margin: 3rem auto;
+  border: none;
+  font-size: inherit;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: fit-content;
+  text-align: center;
+  color: #aaa;
+  border-radius: 5px;
+}
