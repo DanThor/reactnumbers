@@ -14,7 +14,7 @@ const Index = () => {
         return;
       }
   
-      fetch(`${rootUrl}${searchText}?json`)
+      fetch(`${rootUrl}${searchText}`)
          .then((res) => res.json())
         .then((json) => {
             if (json) {
